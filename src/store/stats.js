@@ -75,16 +75,15 @@ const statsSlice = createSlice({
       { averageMark: 7.2, name: "Diana	Smith" },
     ],
     group: [
-      {
-        "Groups of 20 students": 20,
-        "Groups of 10 students": 20,
-        "Groups of 5 students": 15,
-        "Individual sessions": 7,
-      },
+      ["Groups of 20 students", 20],
+      ["Groups of 10 students", 20],
+      ["Groups of 5 students", 15],
+      ["Individual sessions", 7],
     ],
   },
   reducers: {
     changeSortBy: (store, action) => {
+      console.log(action.payload);
       store.sortBy = action.payload;
     },
   },

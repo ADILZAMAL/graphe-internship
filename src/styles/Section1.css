@@ -19,7 +19,6 @@
 }
 .card__text {
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -54,4 +53,11 @@
   background-color: rgba(76, 184, 255, 0.07);
   padding: 15px;
   border-radius: 50%;
+}
+
+.chartjs-render-monitor {
+}
+canvas {
+  width: 500px !important;
+  /* height: 400px !important; */
 }

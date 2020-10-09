@@ -1,0 +1,57 @@
+.section1 {
+  font-family: "Gilroy", sans-serif;
+}
+.card {
+  border-radius: 100px;
+  background-color: #fff;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  border: none !important;
+  height: 15vh !important;
+  -webkit-box-shadow: 6px 7px 8px 1px rgba(235, 235, 235, 1);
+  -moz-box-shadow: 6px 7px 8px 1px rgba(235, 235, 235, 1);
+  box-shadow: 6px 7px 8px 1px rgba(235, 235, 235, 1);
+  transition-duration: 400ms;
+}
+.card:hover {
+  transform: scale(1.09);
+}
+.card__text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__text h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.5rem;
+}
+.card__text p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.7rem;
+  color: #a6acbe;
+}
+.section1__card1__image {
+  background-color: rgba(113, 59, 219, 0.05);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.section1__card2__image {
+  background-color: rgba(51, 214, 159, 0.07);
+  padding: 15px;
+  border-radius: 50%;
+}
+.section1__card3__image {
+  background-color: rgba(255, 76, 97, 0.05);
+  padding: 15px;
+  border-radius: 50%;
+}
+.section1__card4__image {
+  background-color: rgba(76, 184, 255, 0.07);
+  padding: 15px;
+  border-radius: 50%;
+}

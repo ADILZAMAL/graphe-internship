@@ -2,7 +2,7 @@
   font-family: "Gilroy", sans-serif;
 }
 .card {
-  border-radius: 100px;
+  border-radius: 10px;
   background-color: #fff;
   display: flex !important;
   flex-direction: row !important;
